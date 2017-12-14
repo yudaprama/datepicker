@@ -6,6 +6,7 @@ import {
   Image,
   Modal,
   TouchableHighlight,
+  TouchableOpacity,
   DatePickerAndroid,
   TimePickerAndroid,
   DatePickerIOS,
@@ -411,7 +412,7 @@ DatePicker.defaultProps = {
   disabled: false,
   hideText: false,
   placeholder: '',
-  TouchableComponent: TouchableHighlight,
+  TouchableComponent: TouchableOpacity,
   modalOnResponderTerminationRequest: e => true
 };
 
