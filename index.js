@@ -404,7 +404,6 @@ DatePicker.defaultProps = {
   duration: 300,
   confirmBtnText: 'Simpan',
   cancelBtnText: 'Batal',
-  iconSource: require('./date_icon.png'),
   customStyles: {},
 
   // whether or not show the icon
@@ -428,7 +427,6 @@ DatePicker.propTypes = {
   duration: PropTypes.number,
   confirmBtnText: PropTypes.string,
   cancelBtnText: PropTypes.string,
-  iconSource: PropTypes.oneOfType([PropTypes.number, PropTypes.object]),
   iconComponent: PropTypes.element,
   customStyles: PropTypes.object,
   showIcon: PropTypes.bool,
