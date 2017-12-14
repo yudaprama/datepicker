@@ -315,6 +315,7 @@ class DatePicker extends Component {
       confirmBtnText,
       TouchableComponent,
       testID,
+      children,
       cancelBtnTestID,
       confirmBtnTestID
     } = this.props;
@@ -327,7 +328,8 @@ class DatePicker extends Component {
 
     return (
       <TouchableComponent
-        style={[Style.dateTouch, style]}
+        style={style}
+        children={children}
         underlayColor={'transparent'}
         onPress={this.onPressDate}
         testID={testID}>

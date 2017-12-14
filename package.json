@@ -1,7 +1,6 @@
 {
   "name": "datepicker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
-  "repository": "https://github.com/yudaprama/datepicker.git",
-  "license": "MIT"
+  "repository": "https://github.com/yudaprama/datepicker.git"
 }
